@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+.header{
+    height: 700px;
+    background-color: #c5906a;
+    display: flex;
+}
+.developer{
+    width: 20%;
+}
+
+.developer-eliment{
+    font-size: 60px;
+    font-weight: bolder;
+    display: block;
+    transform: rotateZ(-90deg);
+    padding: 5px;
+    margin-top: -10px;
+    color: #c6c1c1;
+    padding-top: 0px;
+}
+.banner{
+    width: 80%;
+}
+.nav-section{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+}
+.nav-link a{
+    margin-right: 40px;
+
+}
+.text-container{
+    width: 50%;
+    padding: 10px;
+}
+.img-container{
+    width: 50%;
+ background-image: removed;
+}
+
+.text-img-container{
+    display: flex;
+
+}
+.logo-salina{
+    font-size: 30px;
+    color: rgb(99, 80, 80)
+}
+.btn-primary{
+    font-size: 18px;
+    background-color: orangered;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+}
+.btn-primary:hover{
+    background-color: blue;
+}
+
+
+/* about section style started here */
+.about-container{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(93, 93, 196);
+    color: orangered;
+}
+
+.about-text{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    position: relative;
+    left: 400px;
+    margin-top: 20px;
+    font-family: "Great Vibes", cursive;
+
+}
+/* project section style started here */
+.project-container{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    padding-top:100px ;
+}
+.project-div-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.project-div{
+    width: 250px;
+    height: 300px;
+    background-color:aquamarine;
+    color: blue;
+    border-radius: 50px 0px 50px 0px;
+    padding: 20px;
+    
+
+}
+.project-div:hover{
+    background-color: chocolate;
+    border-radius: 0px 50px 0px 50px;
+}
+.project-button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+/* education section */
+
+
+.education-container{
+    width: 100%;
+    height: 400px;
+    background-color: darkgreen;
+    padding-top: 100px;
+
+}
+.my-education{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: white;
+
+}
+/* contact section */
+.contact-container{
+    width: 100%;
+    height: 600px;
+    background-color: darkorange;
+}
+.contact-way{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.contact-1{
+    height: 400px;
+    width: 500px;
+    background-color:black;
+    margin-left: 50px;
+    color: white;
+    padding-top: 50px;
+
+}
+
+.contact-2{
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    margin-right: 50px;
+}
+#input-field{
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+   
+}
+.contact-button{
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 35px;
+    background-color: blue;
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+.contact-button:hover{
+    background-color: brown;
+}
+
+
